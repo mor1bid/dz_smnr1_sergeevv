@@ -5,6 +5,7 @@ while (starta <= numa)
 {
     if (starta % 2 == 0) {
         Console.Write(starta);
+        Console.Write(" , ");
         } else {Console.Write("");
         }
     starta++;
@@ -14,6 +15,7 @@ while (startb <= numb)
 {
     if (startb % 2 == 0) {
     Console.Write(startb);
+    Console.Write(" , ");
         } else {Console.Write("");
         }
     startb++;
