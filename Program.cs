@@ -12,8 +12,7 @@ while (ind<size)
     else 
     {
         Console.Write(array[ind]);
-        Console.Write(", ");
+        Console.Write(" - нет; ");
     }
-    Console.Write("- нет; ");
 ind++;
 }
