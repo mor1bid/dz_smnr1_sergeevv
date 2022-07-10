@@ -1,15 +1,20 @@
 ﻿int numa = 5, numb = 8;
 int starta = -numa;
 int startb = -numb;
-while (starta <= numa);
+while (starta <= numa)
 {
-    Console.Write(starta);
-    start++;
-    Console.Write(" ; ");
+    if (numa % 2 == 0) {
+        Console.Write(starta);
+        } else {Console.Write("");
+        }
+    starta++;
 }
-
-while (startb <= numb);
+Console.Write(" AND ");
+while (startb <= numb)
 {
+    if (numb % 2 == 0) {
     Console.Write(startb);
-    start++;
+    } else {Console.Write("");
+    }
+    startb++;
 }
