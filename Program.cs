@@ -8,13 +8,13 @@ while (ind<size)
     {
         Console.Write(array[ind]);
         Console.Write(", ");
-        Console.Write(" - да");
+        Console.Write("- да ");
     }   
     else 
     {
         Console.Write(array[ind]);
         Console.Write(", ");
-        Console.Write(" - нет");
+        Console.Write("- нет ");
     }
 ind++;
 }
