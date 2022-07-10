@@ -1,5 +1,5 @@
-﻿ulong ind=99999999999999999, count=1, a, b, c, max;
-while (count>ind) {
+﻿ulong ind=99999999999999999, count=0, a, b, c, max;
+while (count<ind) {
 Console.Write("Введите три числа: ");
 a=Convert.ToUInt32(Console.ReadLine());
 b=Convert.ToUInt32(Console.ReadLine()); 
