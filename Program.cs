@@ -1,4 +1,4 @@
-﻿int a1=5, b1=7, a2=2, b2=10, a3=-9, b3=-3, max1, min1, max2, min2, max3, min3;
+﻿int a1=15, b1=7, a2=22, b2=10, a3=-9, b3=-3, max1, min1, max2, min2, max3, min3;
 max1=a1;
 min1=b1;
 max2=a2;
