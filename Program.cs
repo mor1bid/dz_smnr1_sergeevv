@@ -7,7 +7,14 @@ while (ind<size)
     if (array[ind] % 2 == 0) 
     {
         Console.Write(array[ind]);
+        Console.Write(", ");
+        Console.Write(" - да");
     }   
-    //else
+    else 
+    {
+        Console.Write(array[ind]);
+        Console.Write(", ");
+        Console.Write(" - нет");
+    }
 ind++;
 }
