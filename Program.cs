@@ -1,10 +1,9 @@
-﻿long ind=99999999999999999, count=1;
+﻿ulong ind=99999999999999999, count=1, a, b, c, max;
 while (count>ind) {
 Console.Write("Введите три числа: ");
-int a=Convert.ToInt32(Console.ReadLine()), 
-    b=Convert.ToInt32(Console.ReadLine()), 
-    c=Convert.ToInt32(Console.ReadLine()), 
-    max;
+a=Convert.ToUInt32(Console.ReadLine());
+b=Convert.ToUInt32(Console.ReadLine()); 
+c=Convert.ToUInt32(Console.ReadLine());
 if (a>b) 
 { max=a; 
     if (a<c) 
@@ -13,10 +12,9 @@ else
 { max=b; 
     if (b<c) 
     { max=c; } }
-count++;
-
 Console.Write("Число ");
 Console.Write(max);
 Console.Write(" наибольшее среди других чисел множества");
 Console.Write(" ; ");
+count++;
 }
